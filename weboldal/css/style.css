@@ -1,5 +1,6 @@
 body{
     color: #333333;
+    background-color: #F4F1EA;
 }
 
 header{
@@ -9,6 +10,8 @@ header{
     flex-direction: column;
     justify-content: flex-end;
     padding: 30px;
+    background-image: url(/weboldal/img/borito.jpg);
+    align-items: center;
 }
 
 h1{
@@ -16,6 +19,8 @@ h1{
     color: white;
     text-shadow: 3px 3px 8px black;
     margin: 0;
+    font-size: 6rem;
+    text-transform: uppercase;
 }
 
 .alcim{
@@ -28,6 +33,13 @@ nav{
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: #B23A48;
+    border-bottom: 3px solid #7E2832;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
 }
 
 .nav-link:hover{
@@ -36,6 +48,8 @@ nav{
 
 main{
     padding: 20px;
+    max-width: 1100px;
+    align-items: center;
 }
 
 section{
@@ -43,9 +57,16 @@ section{
     border-bottom: 1px solid #D8CFC0;
 }
 
+figcaption{
+    text-align: center;
+    font-style: italic;
+}
+
 section h2{
     margin-bottom: 25px;
     color: #B23A48;
+    border-left: 8px solid #B23A48;
+    margin-left: 12px;
 }
 
 section .btn{
@@ -70,6 +91,10 @@ section .btn:hover{
     font-size: 0.95rem;
 }
 
+table th{
+    text-transform: uppercase;
+}
+
 .table{
     --bs-table-bg: #FFF8EC;
 }
@@ -88,5 +113,13 @@ footer a{
 @media screen and (max-width: 992px){
     .alcim{
         font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:576){
+    h1{
+        font-size: 3.5rem;
+    }
+    section .btn{
+        width: 100%;
     }
 }

@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origami - a papírhajtogatás művészete</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="top">
         <h1>Origami</h1>
         <p class="alcim">A papírhajtogatás művészete</p>
 
@@ -14,69 +19,79 @@
             <li class="nav-item">
                 <a class="nav-link" href="#galeria">Galéria</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#stilusok">Stílusok</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#papirok">Papírok</a>
+            </li>
         </ul>
     </nav>
-
-        <section>
+<main>
+        <section id="tortenet">
             <h2>Az origami története</h2>
             <p>Az origami japán szó, két részből áll: az <b>ori</b> jelentése hajtogatni, a <b>kami</b> jelentése papír. Az origami tehát a papírhajtogatás művészete, amelynek során egyetlen papírlapból, vágás és ragasztás nélkül készítünk figurákat.</p>
             <p>A papírt Kínában találták fel, Japánba a 6. század környékén jutott el. Eleinte nagyon drága volt, ezért a hajtogatott papírt főleg vallási szertartásokon és ünnepi ajándékok díszítésére használták. Később a hajtogatás a mindennapok része, a gyerekek kedvelt időtöltése lett.</p>
             <p>A modern origami egyik legismertebb alakja Josizava Akira japán mester volt, aki több ezer modellt alkotott, és kidolgozta a hajtogatási ábrák ma is használt jelrendszerét. Ennek köszönhetően a modellek leírása nyelvtől függetlenül, a világ bármely pontján érthetővé vált.</p>
-            <a href="#teteje">Vissza az oldal tetejére</a>
+            <a class="btn" href="#top">Vissza az oldal tetejére</a>
         </section>
 
-        <section>
+        <section id="galeria">
             <h2>Galéria</h2>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12  col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/daru.jpg" alt="daru.jpg" title="Daru">
+                        <img class="img-fluid rounded" src="img/daru.jpg" alt="daru.jpg" title="Daru">
                         <figcaption>Daru</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/pillango.jpg" alt="pillango.jpg" title="Pillangó">
+                        <img class="img-fluid rounded" src="img/pillango.jpg" alt="pillango.jpg" title="Pillangó">
                         <figcaption>Pillangó</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/teknos.jpg" alt="teknos.jpg" title="Teknős">
+                        <img class="img-fluid rounded" src="img/teknos.jpg" alt="teknos.jpg" title="Teknős">
                         <figcaption>Teknős</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12  col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/elefant.jpg" alt="elefant.jpg" title="Elefánt">
+                        <img class="img-fluid rounded" src="img/elefant.jpg" alt="elefant.jpg" title="Elefánt">
                         <figcaption>Elefánt</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12  col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/lotusz.jpg" alt="lotusz.jpg" title="Lótusz">
+                        <img class="img-fluid rounded" src="img/lotusz.jpg" alt="lotusz.jpg" title="Lótusz">
                         <figcaption>Lótusz</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12  col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/dinoszaurusz.jpg" alt="dinoszaurusz.jpg" title="Dinoszaurusz">
+                        <img class="img-fluid rounded" src="img/dinoszaurusz.jpg" alt="dinoszaurusz.jpg" title="Dinoszaurusz">
                         <figcaption>Dinoszaurusz</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12  col-sm-6 col-lg-3">
                     <figure>
-                        <img src="img/pava.jpg" alt="pava.jpg" title="Páva">
+                        <img class="img-fluid rounded" src="img/pava.jpg" alt="pava.jpg" title="Páva">
                         <figcaption>Páva</figcaption>
                     </figure>
                 </div>
-                <div class="col-12">
+                <div class="col-12  col-sm-6 col-lg-3">
+                    <figure>
+                        <img class="img-fluid rounded" src="img/virag.jpg" alt="virag.jpg" title="Virágcsokor">
+                        <figcaption>Dinoszaurusz</figcaption>
+                    </figure>
                 </div>
             </div>
             <a class="btn" href="#top">Vissza az oldal tetejére</a>
         </section>
 
-        <section>
+        <section id="stilusok">
             <h2>Hajtogatási stílusok</h2>
             <div class="row">
                 <div class="col-md-6 col-xl-3 mb-4">
@@ -109,9 +124,9 @@
                 <div class="col-md-6 col-xl-3 mb-4">
                     <div class="card h-100">
                         <img src="img/komplex.jpg" alt="komplex.jpg">
-                        <div>
-                            <h3>Komplex origami</h3>
-                            <p>Rendkívül részletes modellek, amelyek gyakran több száz lépésből állnak. Megtervezésükhöz a hajtogatók matematikai módszereket és számítógépes programokat is használnak.</p>
+                        <div class="card-body">
+                            <h3 class="card-title">Komplex origami</h3>
+                            <p class="card-text">Rendkívül részletes modellek, amelyek gyakran több száz lépésből állnak. Megtervezésükhöz a hajtogatók matematikai módszereket és számítógépes programokat is használnak.</p>
                         </div>
                     </div>
                 </div>
@@ -119,16 +134,16 @@
             <a class="btn" href="#top">Vissza az oldal tetejére</a>
         </section>
 
-        <section>
+        <section id="papirok">
             <h2>Origami papírok</h2>
             <p>Origamihoz szinte bármilyen papír használható, de a jó papír megkönnyíti a munkát. Az alábbi táblázat a leggyakoribb papírtípusokat mutatja be.</p>
             <div>
-                <table class="table">
+                <table class="table table-responsive">
                     <tr>
-                        <td>Papír típusa</td>
-                        <td>Vastagság</td>
-                        <td>Jellemzői</td>
-                        <td>Ajánlott</td>
+                        <th>Papír típusa</th>
+                        <th>Vastagság</th>
+                        <th>Jellemzői</th>
+                        <th>Ajánlott</th>
                     </tr>
                     <tr>
                         <td>Kami</td>
@@ -161,14 +176,16 @@
                         <td>állatfigurákhoz, nedves hajtogatáshoz</td>
                     </tr>
                     <tr>
-                        <td>Kezdőknek 15x15 cm-es kami papír ajánlott.</td>
+                        <td colspan="4">Kezdőknek 15x15 cm-es kami papír ajánlott.</td>
                     </tr>
                 </table>
             </div>
             <a class="btn" href="#top">Vissza az oldal tetejére</a>
         </section>
-
-        <p>A képek forrása: <a href="https://commons.wikimedia.org">Wikimedia Commons</a> (részletek: img/forrasok.txt)</p>
-        <p>Készítette: Név - osztály</p>
+</main>
+<footer>
+        <p>A képek forrása: <a target="_blank" href="https://commons.wikimedia.org">Wikimedia Commons</a> (részletek: img/forrasok.txt)</p>
+        <p>Készítette: Furuglyás Péter Gerely - 13.A</p>
+</footer>
 </body>
 </html>
