@@ -1,0 +1,92 @@
+body{
+    color: #333333;
+}
+
+header{
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+h1{
+    letter-spacing: 8px;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    margin: 0;
+}
+
+.alcim{
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-link:hover{
+    color: #FFD166;
+}
+
+main{
+    padding: 20px;
+}
+
+section{
+    padding: 30px 0;
+    border-bottom: 1px solid #D8CFC0;
+}
+
+section h2{
+    margin-bottom: 25px;
+    color: #B23A48;
+}
+
+section .btn{
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    background-color: #B23A48;
+    color: white;
+}
+
+section .btn:hover{
+    background-color: #7E2832;
+    color: white;
+}
+
+.card-title{
+    font-size: 1.3rem;
+    color: #B23A48;
+}
+
+.card-text{
+    font-size: 0.95rem;
+}
+
+.table{
+    --bs-table-bg: #FFF8EC;
+}
+
+footer{
+    background-color: #2F2F2F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color: #FFD166;
+}
+
+@media screen and (max-width: 992px){
+    .alcim{
+        font-size: 1.3rem;
+    }
+}

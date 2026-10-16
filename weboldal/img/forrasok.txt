@@ -1,0 +1,67 @@
+Képek forrása: Wikimedia Commons (https://commons.wikimedia.org)
+A képek a feladathoz egységes méretre lettek vágva.
+
+borito.jpg
+  Szerző: TimMilesWright
+  Licenc: CC0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Origami_cranes_in_Nagasaki.jpg
+
+daru.jpg
+  Szerző: WP user Laitche
+  Licenc: Public domain
+  Eredeti: https://commons.wikimedia.org/wiki/File:Origami_crane_cropped.jpg
+
+pillango.jpg
+  Szerző: Malachi Brown from Nashville, USA
+  Licenc: CC BY-SA 2.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:The_Alice_(origami_butterfly).jpg
+
+teknos.jpg
+  Szerző: Robert Salazar
+  Licenc: CC BY-SA 4.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Origami_Rainbow_Sea_Turtle.JPG
+
+elefant.jpg
+  Szerző: WomanON
+  Licenc: CC BY-SA 4.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Origami_Elephant.jpg
+
+lotusz.jpg
+  Szerző: Ancella Simoes from Atlanta
+  Licenc: CC BY 2.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Lotus_(Traditional_Origami)_(6387011701).jpg
+
+dinoszaurusz.jpg
+  Szerző: Foobaz
+  Licenc: Public domain
+  Eredeti: https://commons.wikimedia.org/wiki/File:Montroll_Origami_Tyrannosaurus.jpg
+
+pava.jpg
+  Szerző: Piwiki314
+  Licenc: CC0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Pavos_reales_origami.jpg
+
+virag.jpg
+  Szerző: Dodoïste
+  Licenc: CC0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Bouquet_of_origami_flower_-_Carambola.jpg
+
+hagyomanyos.jpg
+  Szerző: ismeretlen
+  Licenc: Public domain
+  Eredeti: https://commons.wikimedia.org/wiki/File:Orizuru.jpg
+
+modularis.jpg
+  Szerző: Jacek Halicki
+  Licenc: CC BY 3.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:2014_Origami_modu%C5%82owe.jpg
+
+penzhajtogatas.jpg
+  Szerző: RangerRick
+  Licenc: CC BY-SA 2.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Snail_origami.jpg
+
+komplex.jpg
+  Szerző: /kallu from Helsinki, Finland
+  Licenc: CC BY-SA 2.0
+  Eredeti: https://commons.wikimedia.org/wiki/File:Origami_Gecko_-_Flickr_-_-kallu.jpg
